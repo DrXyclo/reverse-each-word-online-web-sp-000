@@ -14,6 +14,8 @@
 def reverse_each_word(sentence1)
   puts sentence1.reverse 
 end 
+
+reverse_each_word(sentence1) ## test code 
   
 =begin 
 ### TESTS ###
