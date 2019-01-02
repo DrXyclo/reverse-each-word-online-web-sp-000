@@ -16,7 +16,7 @@ require 'pry'
 def reverse_each_word(sentence1)
     word_reverse_array = []
     sentence_as_array = sentence1.split(" ")
-    sentence_as_array.map do |word|
+    sentence_as_array.collect do |word|
     word_reverse_array << word.reverse
     # binding.pry
     
