@@ -21,7 +21,7 @@ def reverse_each_word(sentence1)
     # binding.pry
     
   end 
-    puts word_reverse_array.join(" ")
+     word_reverse_array.join(" ")
 end 
 
 # reverse_each_word(sentence1) ## test code 
