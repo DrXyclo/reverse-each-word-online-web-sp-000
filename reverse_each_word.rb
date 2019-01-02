@@ -17,7 +17,7 @@ def reverse_each_word(sentence1)
     sentence_as_array.map do |word|
     word_reverse_array = word.reverse
     binding.pry
-    word_reverse_array.join
+    
   end 
     
 end 
