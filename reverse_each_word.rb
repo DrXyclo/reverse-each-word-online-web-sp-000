@@ -17,7 +17,7 @@ def reverse_each_word(sentence1)
     sentence_as_array = sentence1.split(" ")
     sentence_as_array.map do |word|
     word_reverse_array << word.reverse
-    binding.pry
+    # binding.pry
     
   end 
     puts word_reverse_array.join
