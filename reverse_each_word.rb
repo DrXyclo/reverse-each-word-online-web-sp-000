@@ -7,6 +7,7 @@
 
 
 sentence1 = "Hello there, and how are you?"
+# need "olleH ,ereht dna woh era ?uoy"
 
 ###########################################################################
 #=begin 
@@ -20,7 +21,7 @@ def reverse_each_word(sentence1)
     # binding.pry
     
   end 
-    puts word_reverse_array.join
+    puts word_reverse_array.join(" ")
 end 
 
 reverse_each_word(sentence1) ## test code 
