@@ -13,14 +13,13 @@ sentence1 = "Hello there, and how are you?"
 require 'pry'
 
 def reverse_each_word(sentence1)
-    word_reverse_array[]
+    word_reverse_array = []
     sentence_as_array = sentence1.split(" ")
     sentence_as_array.map do |word|
-    word_reverse_array = word.reverse
+    word_reverse_array << word.reverse
     binding.pry
     
-  end 
-    wor
+  end _
 end 
 
 reverse_each_word(sentence1) ## test code 
