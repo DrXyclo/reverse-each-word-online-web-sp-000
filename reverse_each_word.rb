@@ -10,11 +10,13 @@ sentence1 = "Hello there, and how are you?"
 
 ###########################################################################
 #=begin 
+require 'pry'
 
 def reverse_each_word(sentence1)
   
     sentence1.split(" ").map do |word|
     word_reverse_array = word.reverse
+    binding.pry
     word_reverse_array.join
   end 
     
